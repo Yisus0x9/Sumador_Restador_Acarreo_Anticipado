@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sumadorCAA.srcs/sources_1/new/sumRes4BCA.vhd" \
+"../../../../sumadorCAA.srcs/sim_1/new/sumResCA_tb.vhd" \
+
+# Do not sort compile order
+nosort
